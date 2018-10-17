@@ -536,6 +536,9 @@ packages =  [
 ]
 package_dir = { "Crypto": "lib/Crypto" }
 package_data = {
+    "Crypto.Cipher" : [
+        "py.typed", "*.pyi"
+    ],
     "Crypto.SelfTest.Cipher" : [
         "test_vectors/AES/*.rsp",
         "test_vectors/TDES/*.rsp",
